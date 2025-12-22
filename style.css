@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Frutiger';
+    src: url('./fonts/Frutiger.ttf') format('truetype');
+}
+
 body{
     margin: 0;
-    font-family: 'DM Serif Text', serif;
+    font-family: 'Frutiger', sans-serif;
     background-color: black;
 }
 
@@ -19,12 +24,11 @@ body{
 
 
 #container{
-    font-family: "Google Sans Code", monospace;
     background: linear-gradient(156deg,rgba(94, 201, 36, 0.451) 0%, rgba(87, 199, 133, 0.451) 50%, rgba(237, 221, 83, 0.451) 100%);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 20px;
+    border-radius: 50px;
     padding-bottom: 20px;
     height: fit-content;
     margin-top: 5%;
@@ -39,7 +43,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.205);
-    border-radius: 20px;
+    border-radius: 50px;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -79,7 +83,7 @@ body{
     margin-right: auto;
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.205);
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -97,7 +101,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(255, 255, 255, 0.205);
-    border-radius: 20px;
+    border-radius: 50px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -137,7 +141,8 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
 
 @media (max-width: 600px) {
     #container{
-        width: 95%;
+        width: 100%;
+		hight: 100%;
     }
 
     #aboutMeText{
@@ -156,7 +161,7 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
 
     #aboutMeText{
         font-size: 16px;
-        margin: 10px;
+        margin: 30px;
         padding: 15px;
         width: fit-content;
     }
