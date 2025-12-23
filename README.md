@@ -1,3 +1,3 @@
 # A Personal Website memicing Frutiger Aero theme 🫧
 
-<img src ='./images/about-3boodyy.png' alt = 'About 3boodyy'>
+<a href="https://3boodyy96-about-me.netlify.app/"> <img src ='./images/about-3boodyy.png' alt = 'About 3boodyy'> </a>
