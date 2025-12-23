@@ -117,7 +117,7 @@ body{
     height: 70px;
     transform: translatey(5px);
     transition: transform 0.3s ease, filter 0.3s ease;
-    border-radius: 50px;
+    border-radius: 400px;
 }
 
 #discordIcon{
@@ -168,3 +168,4 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
     }
 
 }
+
