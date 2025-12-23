@@ -117,6 +117,7 @@ body{
     height: 70px;
     transform: translatey(5px);
     transition: transform 0.3s ease, filter 0.3s ease;
+    border-radius: 50px;
 }
 
 #discordIcon{
@@ -166,9 +167,4 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
         width: fit-content;
     }
 
-
-    /* #instagramIcon{
-        width: 60px;
-        height: 60px;
-    } */
 }
