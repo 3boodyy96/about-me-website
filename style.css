@@ -22,10 +22,6 @@ body{
 
 }
 
-p {
-    line-height: 19.8 !important;
-}
-
 #container{
     background: linear-gradient(156deg,rgba(94, 201, 36, 0.451) 0%, rgba(87, 199, 133, 0.451) 50%, rgba(237, 221, 83, 0.451) 100%);
     width: 80%;
@@ -262,6 +258,7 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
 
 
 }
+
 
 
 
