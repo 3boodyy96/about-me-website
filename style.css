@@ -23,7 +23,7 @@ body{
 }
 
 p{
-	gap:20px;
+	gap:200px;
 }
 
 #container{
@@ -262,4 +262,5 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
 
 
 }
+
 
