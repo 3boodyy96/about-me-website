@@ -23,7 +23,7 @@ body{
 }
 
 p{
-	line-height:150px;
+	line-height: 1.8;
 }
 
 #container{
@@ -262,6 +262,7 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
 
 
 }
+
 
 
 
