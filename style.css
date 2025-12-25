@@ -151,8 +151,8 @@ iframe{
     background-color: rgba(189, 208, 185, 0.205);
     border-radius: 50px;
     padding-bottom: 20px;
-    width: 100%;
-    transition: transform 0.3s ease;
+    width: 70%;
+    transition:  0.3s ease;
 }
 
 
@@ -199,7 +199,6 @@ iframe{
 
 #discordIcon:hover{
     transform: translateX(5px) scale(1.15);
-    transform: scale(1.15);
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
 
 }
@@ -212,9 +211,16 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
     transform: scale(1.1);
 }
 
+#aboutMeText:hover, #pfpAndName:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: solid rgba(255, 255, 255, 0.1);
+}
+
 
 .ProjectContainer:hover{
     transform: scale(1.02);
+    border: solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 600px) {
