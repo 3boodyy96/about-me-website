@@ -22,8 +22,8 @@ body{
 
 }
 
-p{
-	line-height: 19.8;
+p {
+    line-height: 19.8 !important;
 }
 
 #container{
@@ -262,6 +262,7 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
 
 
 }
+
 
 
 
