@@ -284,6 +284,30 @@ a:hover, #aboutMeText:hover,#pfpAndName:hover{
         width: fit-content;
     }
 
+    #MyProjects{
+        width: 95%;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .ProjectContainer{
+        width: 90%;
+    }
+
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+    .ProjectName{
+        font-size: 20px;
+    }
+    
+    .ProjectDescreption{
+        font-size: 16px;
+    }
+
+
     #myAccounts{
         gap: 10px;
     }
